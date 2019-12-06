@@ -1,0 +1,588 @@
+/*
+Guitarra Sensacion 2019/ Joel Torrez
+*/
+
+/* Color de Fondo y tipo de letra web */
+body
+	{
+		background: #ffffff;
+        font-family: 'Raleway', sans-serif;
+		font-weight: 400;
+        position: relative;
+	}
+/* Fin de Color de Fondo y tipo de letra web */
+
+/* Tamaño de letras y espaciados en los textos*/
+h2, h3, h4
+    {
+        font-weight: bold;
+    }
+p
+    {
+        line-height: 22px;
+    }
+/* Fin de Tamaño de letras y espaciados en los textos*/
+
+/* Espacio de cada elemento */
+#divider, #inicio, #newsletter, #divide,
+ #pricing, #client, #contact
+    {
+        padding-top: 60px;
+        padding-bottom: 80px;
+        position: relative;
+    }
+/* fin de espacio de cada elemento*/
+
+/* comenzar navegacion */
+.navegacion-estable-color-sombra
+    {
+        background: rgb(255, 255, 255);
+        border: none;
+        box-shadow: 0px 2px 10px 0px #5e5e5e;
+        margin: 0 !important;
+        padding: 0;
+    }
+.navbar-default .navbar-brand
+    {
+        padding-top: 5px;
+        padding-bottom: 60px;
+    }
+.navbar-default .navbar-nav li a
+    {
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 38px;
+    }
+.navbar-default .navbar-nav li a:hover
+    {
+        color: #0db808;
+    }
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #0db808;
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle
+    {
+        border: none;
+        padding-top: 16px;
+    }
+.navbar-default .navbar-toggle .icon-bar
+    {
+        background: #0db808;
+        border-color: transparent;
+    }
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus { background-color: transparent }
+/* Finalizar navegacion */
+
+/*Comenzar Imagen y boton del inicio */      
+#home
+	{
+      padding-top: 65px;
+	}
+.flexslider {
+  margin: 0 0 30px;
+  background: rgb(0, 0, 0);
+  position: relative;
+  zoom: 0;
+  background-color: #000000;
+  overflow: hidden;
+  margin: 0;
+}
+.flexslider .slides {
+  padding: 0;
+  zoom: 0;
+}
+.flexslider .slides img {
+  width: 100%;
+  min-width: 300px;
+  min-height: 170px;
+  display: block;
+}
+.flexslider .slides > li {
+  display: none;  
+  padding: 0;
+  position: relative;
+}
+.flexslider img {
+  position: relative;
+  width: 100%;
+}
+.slider-caption {
+  color:rgb(255, 255, 255);
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-transform: uppercase;
+  z-index: 7;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.flexslider .btn
+{
+    background: #2bff00;
+    border-radius: 15px;
+    border: 2px solid transparent;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 5px 0 0 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    height: 33px;
+    width: 118px;
+    font-size: 13px;
+    padding: 6px 10px 10px 10px;
+}
+.flexslider .btn:hover,
+.flexslider .btn:focus {
+    background: rgb(0, 0, 0);
+    color: #35ff23;
+    border: 2px solid transparent;
+}
+/* fin de Imagen y boton del inicio */
+
+/* introduccion */
+#about h3
+    {
+        margin-top: 80px;
+        color:rgb(46, 0, 0);
+        font-size: 20px;
+    }
+#about .titulo
+    {
+        color: rgb(51, 51, 51);
+        font-size: 13px;
+        margin-left: 10px;
+    }
+/* fin de introduccion */
+
+/* Inicio */
+#inicio h3
+    {
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 20px;
+        color: rgb(46, 0, 0);
+        font-size: 18px;    
+    }
+#inicio .text
+    {
+        margin-top: 5px;
+        color: rgb(51, 51, 51);
+        font-size: 14px;  
+    }
+/* Fin inicio */
+
+
+/* Beneficios */
+    #service .media
+    {      
+        padding: 15px;
+        margin-top: -13px;
+    }
+    #service .medi
+    {      
+        padding: 15px;
+        margin-top: -3px;
+    }
+    
+    #service .media .fa
+    {
+       
+        color: #0d045c;
+        font-size: 28px;
+       
+    }
+    #service .medi .fa
+    {
+       
+        color: #0d045c;
+        font-size: 23px;
+       
+    }
+    #service p
+    {
+       
+       
+        font-size: 12px;
+       
+    }
+    #service .medi .media-heading
+    {
+        
+        border-bottom: 2px solid #202020;
+        font-weight: 700;
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    #service .media .media-heading
+    {
+        border-bottom: 2px solid #202020;
+        font-weight: 700;
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+/* Fin beneficios */
+
+/* Lo hermoso de la guitarra */
+#divider
+    {
+        margin-top: 60px;
+        background: url('../images/iii.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: rgb(255, 255, 255);
+        font-family: arial;
+    }
+#divider h2
+    {
+        font-size: 32px;
+    }
+#divider strong
+    {
+        color: #40ff00;
+    }
+#divider h3
+    {
+        font-size: 17px;
+        padding-bottom: 0px;
+    }
+    #divider p
+    {
+        font-size: 11px;
+    }
+/* Fin */
+
+/* Curso cpmpleto */
+#pricing
+    {
+        border-bottom: 1px solid #f6f6f6;
+    }
+#pricing h2
+    {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+     color: rgb(42, 127, 0);
+    }
+#princing p
+    {
+        font-size: 40px;
+    }
+#pricing .col-md-3,
+#pricing .col-sm-6
+    {
+        padding: -1px;
+        margin: 0;
+    }
+#pricing .plan
+  {
+    border: 1px solid #adadad;
+    margin-top: 40px;
+    transition: all 0.5s ease-in;
+    padding: 0;
+  }
+#pricing .plan_one
+ {
+    margin-top: 15px;
+ }
+#pricing .plan_two
+ {
+    margin-top: 15px;
+ }
+#pricing .plan_three
+ {
+    margin-top: 15px;
+ }
+#pricing .plan_four
+ {
+    margin-top: 15px;
+ }
+#pricing .plan:hover
+  {
+    background: #000000;
+    color: #ffffff;
+    transform: scale(1.0);
+  }
+#pricing .plan .plan_title
+  {
+    border-bottom: 1px solid #888888;
+    color: #3cff00;
+    font-size: 30px;
+    padding: 20px;
+  }
+#pricing .plan ul
+  {
+    padding: 0;
+  }
+#pricing .plan ul li
+  {
+    display: block;
+    padding: 16px 0 16px 0;
+  }
+#pricing .plan .btn
+  {
+    background: #15ff00;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 13px;
+    width: 125px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all 0.4s ease-in-out;
+  }
+#pricing .plan .btn:hover
+  {
+    background: rgb(44, 44, 44);
+    color: rgb(255, 238, 0);
+  }
+/* Fin del curso  */
+
+/* start portfolio */
+#portfolio h2
+    {
+        margin-top: 70px;
+        font-size: 25px;
+     color: rgb(42, 127, 0);
+    }
+
+#portfolio .portfolio-thumb
+    {
+        overflow: hidden;
+        margin: 5px;
+        position: relative;
+    }
+    
+#portfolio .portfolio-thumb .portfolio-overlay
+    {
+        background: rgb(19, 19, 19);
+        color: #ffffff;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        padding: 50px 50px 50px 50px;
+        text-align: center;
+        position: absolute;
+        opacity: 0;
+        transition: all 0.4s ease-in-out;
+    }
+#portfolio .portfolio-thumb:hover .portfolio-overlay
+    {
+        opacity: 0.9;
+        transform: scale(1.1);
+    }
+
+/*filter css*/
+.filter-wrapper {
+    width: 100%;
+    margin: 0 0 24px 0;
+    overflow: hidden;
+    text-align: center;
+}
+.filter-wrapper li {
+    display: inline-block;
+    margin: 4px;
+}
+.filter-wrapper li a {
+    border: 1px solid #cfd4cf;
+    border-radius: 8px;
+    color: #999;
+    padding: 8px 17px;
+    display: block;
+    text-decoration: none;
+}
+/*isotope box css*/
+.iso-box-section {
+    width: 100%;
+    margin: 0 0 24px 0;
+}
+.iso-box-wrapper {
+    width: 100%;
+    padding: 0;
+    clear: both;
+    position: relative;
+}
+.iso-box {
+    position: relative;
+    min-height: 50px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.iso-box > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.iso-box > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.fluid-img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+/* end portfolio */
+
+/* Start Sobre mi */
+#divide
+    {
+
+        margin-top: 40px;
+        background: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: rgb(255, 255, 255);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+        font-size: 14px;
+    }
+#divide h2
+    {
+        
+        font-size: 26px;
+        color: rgb(115, 255, 0);
+        font-family: Arial Rounded MT Bold;
+    }
+#divide strong
+    {
+        color: #88ff00;
+    }
+#divide h4
+    {
+        margin-top: 16px;
+        font-size: 21px;
+        color: #88ff00;
+        font-family: Arial Rounded MT Bold;
+    }
+#divide h5
+    {
+        margin-top: -3px;
+        color: #ffffff;
+        font-size: 12px;
+        font-family: Arial ;
+    }
+#divide .imagen
+    {
+        width: 40%;
+       
+    }
+
+/* start footer */
+footer
+    {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+footer p
+    {
+        line-height: 12px;
+    }
+footer .social-icon
+    {
+        top: 0px;
+    }
+/* end footer */
+
+.too-icon {
+	padding: 10px;
+}
+
+/* start social icon */
+.social-icon
+    {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        top: 20px;
+    }
+.social-icon li
+    {
+        display: inline-block;
+        list-style: none;
+    }
+.social-icon li a
+    {
+        color: rgb(47, 114, 3);
+        font-size: 13px;
+        text-decoration: none;
+        transition: all 0.4s ease-in-out;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+    }
+.social-icon li a:hover
+    {
+        background: #0c0c0c;
+    }
+/* end social icon */
+
+@media only screen and (max-width: 1199px) {
+    .flexslider h1 { font-size: 30px; }
+    .flexslider h2 { font-size: 24px; }
+}
+
+/* start templatemo 768 media quires */
+@media only screen and ( max-width: 768px ) {
+    .navbar-default .navbar-brand { margin-left: 20px; }
+    .navbar-default .navbar-nav { margin: 0; }
+    .navbar-default .navbar-collapse
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .flexslider h1 { font-size: 26px; }
+    .flexslider h2 { font-size: 18px; }
+    .templatemo-slider-btn { 
+        margin-top: 10px; 
+        width: 180px;
+        height: 40px;
+        padding-top: 8px;
+    }
+}
+/* end templatemo 768 media quires */
+
+/* start templatemo 600 media quires */
+@media only screen and ( max-width: 640px ) {   
+    .flexslider h1 { font-size: 20px; }
+    .flexslider h2 { font-size: 14px; }
+    .templatemo-slider-btn {
+        width: auto;
+        height: auto;
+        padding: 10px 20px;
+        margin-top: 10px; 
+    }
+}
+/* end templatemo 600 media quires */
+
+/* start templatemo 360 media quires */
+@media only screen and ( max-width: 360px ) {
+    #team .col-md-4
+        {
+            padding-top: 40px;
+        }
+    
+}
+/* end templatemo 360 media quires */

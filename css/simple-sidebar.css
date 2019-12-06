@@ -1,0 +1,627 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+body {
+  overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ebffe2;
+}
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+
+/* comenzar Portada */
+#indexp h1
+{
+margin-left: 1px;
+color: rgb(0, 30, 163); 
+font-size: 38px;
+font-family: Arial Rounded MT Bold;
+}
+
+#indexp h2
+{
+margin-top: 15px;
+color: rgb(53, 53, 53); 
+font-size: 13px;
+font-family:arial;
+}
+
+#indexp h3
+{
+margin-top: 25px;
+color: rgb(8, 102, 156); 
+font-size: 14px;
+font-family:arial;
+}
+/* Finalizar Portada */
+
+
+/* Comenzar Index1 */
+#index1 h1
+{
+ color: rgb(0, 30, 163); 
+ font-size: 38px;
+ font-family: Arial Rounded MT Bold;
+ margin-top: 45px;
+}
+#index1 h2
+  {
+  margin-top: 15px;
+  color: rgb(0, 0, 0); 
+  font-size: 13px;
+  font-family: calibri-light;
+  }
+#index1 h3
+  {
+   margin-left:-20px ;
+   margin-top: 30px;
+   color: rgb(0, 25, 134); 
+   font-size: 14px;
+   font-family: Arial Rounded MT Bold;
+  }
+  #index1 h4
+  {
+  margin-top: 10px;
+  color: rgb(0, 0, 0); 
+  font-size: 13px;
+  font-family: calibri-light;
+  }
+/* final Index1 */
+
+
+/* Comenzar Index2 */
+#index2 h1
+  {
+ color: rgb(0, 30, 163); 
+ font-size: 33px;
+ font-family: Arial Rounded MT Bold;
+ margin-left: 7px;
+  }
+#index2 h2
+  {
+  margin-top: 15px;
+  color: rgb(0, 0, 0); 
+  font-size: 13px;
+  font-family: calibri-light;
+  }
+#index2 h3
+  {
+  margin-left: -7px;
+  margin-top: 25px;
+  color: rgb(13, 0, 128); 
+  font-size: 14px;
+  font-family: Arial Rounded MT Bold;
+  }
+#index2 h4
+  {
+  margin-top: -5px;
+  margin-right: 4px;
+  color: rgb(0, 0, 0); 
+  font-size: 12px;
+  font-family: calibri-ligth;
+  }
+#index2 .imagen
+  {
+    margin-top: 40px;
+    margin-left: -40px;
+    padding: 20px;
+  }
+/* Comenzar Index2 */
+
+
+/* Comenzar Index3 */
+#textos h1
+{
+ color: rgb(0, 30, 163); 
+ font-size: 31px;
+ font-family: Arial Rounded MT Bold;
+ margin-top: 45px;
+}
+#textos h2
+  {
+   color: rgb(0, 0, 0); 
+   margin-left: 10px;
+   font-size: 13px;
+   margin-right: 20px;
+   
+  }
+#textos h3
+  {
+   color: rgb(0, 30, 163); 
+   font-size: 16px;
+   font-family: Arial Rounded MT Bold;
+   margin-top: 45px;
+  }
+#textos h4
+  {
+   color: rgb(0, 0, 0); 
+   margin-right: 0px;
+   font-size: 13px;
+   font-family:calibri;
+   margin-left: 100px;
+   margin-right: 30px;
+   margin-top: -100px;
+  }
+#textos h5
+  {
+   color: rgb(0, 0, 0); 
+   margin-right: 0px;
+   font-size: 13px;
+   font-family:calibri;
+   margin-left: 100px;
+   margin-right: 35px;
+   margin-top: -120px;
+  }
+#textos .imagen
+  {
+    margin-top: 60px;
+    margin-left: 10px;
+  }
+#textos .image
+  {
+    margin-top: -10px;
+    margin-left: 10px;
+  }
+/* Fin Index3 */
+
+
+/* iniciar Index4 */
+#index4 h1
+  {
+ color: rgb(0, 30, 163); 
+ font-size: 32px;
+ font-family: Arial Rounded MT Bold;
+ margin-left: -10px;
+  }
+#index4 h2
+  {
+  color: rgb(0, 0, 0); 
+  font-size: 12px;
+  font-family: calibri-light;
+  }
+#index4 h3
+  {
+  margin-left: -8px;
+  margin-top: 35px;
+  color: rgb(13, 0, 128); 
+  font-size: 16px;
+  font-family: Arial Rounded MT Bold;
+  }
+#index4 h4
+  {
+  color: rgb(0, 0, 0); 
+  font-size: 13px;
+  font-family: calibri-light;
+  }
+#index4 h5
+  {
+  margin-left: 10px;
+  margin-top: 10px;
+  color: rgb(105, 105, 105); 
+  font-size: 15px;
+  font-family:calibri;
+  }
+#index4 h6
+  {
+  margin-top: 15px;
+  color: rgb(0, 0, 0); 
+  font-size: 13px;
+  font-family: arial;
+  }
+
+#index4 .texto1
+  {
+      margin-left: -8px;
+      margin-top: 35px;
+      color: rgb(13, 0, 128); 
+      font-size: 15px;
+      font-family: Arial Rounded MT Bold;
+  }
+#index4 .texto2
+  {
+  color: rgb(0, 0, 0); 
+  font-size: 13px;
+  font-family: calibri-light;
+  }
+#index4 p
+  {
+  font-size: 12px;
+  margin-left: 0px;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+  font-family: arial;
+  }
+
+/* Fin Index4 */
+
+
+/* Iniciar Index5 */
+#index5 h1
+  {
+ margin-left: -8px;
+ color: rgb(0, 30, 163); 
+ font-size: 29px;
+ font-family: Arial Rounded MT Bold;
+ 
+  }
+#index5 h2
+  {
+  color: rgb(0, 0, 0); 
+  font-size: 13px;
+  font-family: calibri;
+  }
+#index5 h3
+  {
+  margin-left: -8px;
+  margin-top: 35px;
+  color: rgb(16, 0, 156); 
+  font-size: 15px;
+  font-family: Arial Rounded MT Bold;
+  }
+  #index5 h4
+  {
+  margin-top: 40px;
+  color: rgb(15, 0, 151); 
+  font-size: 15px;
+  font-family: Arial Rounded MT Bold;
+  }
+#index5 h5
+  {
+  color: rgb(0, 0, 0); 
+  font-size: 14px;
+  font-family: calibri;
+  }
+#index5 h6
+  {
+  margin-top: 10px;
+  color: rgb(3, 0, 168); 
+  font-size: 17px;
+  font-family: CALIBRI;
+  }
+#tabla
+  {
+    background: rgb(255, 232, 129);
+    width: 50%;
+    height: 50px;
+    size: 20px;
+  }
+#tablas
+  {
+    background: rgb(255, 232, 129);
+    width:95%;
+    height: 35px;
+  }
+  #th
+  {
+    size: 20px;
+  }
+/* Fin Index5 */
+
+
+/* comenzar Index6 */
+#tablas
+  {
+    background: rgb(134, 245, 134);
+    width:200%;
+    height: 40px;
+    margin-left: -30px;
+  }
+#index6 h1
+  {
+ margin-left: -8px;
+ color: rgb(0, 30, 163); 
+ font-size: 34px;
+ font-family: Arial Rounded MT Bold;
+  }
+#index6 h2
+  {
+  color: rgb(0, 0, 0); 
+  font-size: 13px;
+  font-family: calibri;
+  }
+#index6 h3
+  {
+  margin-left: 10px;
+  color: rgb(16, 0, 156); 
+  font-size: 14px;
+  font-family: Arial Rounded MT Bold;
+  }
+#index6 h4
+  {
+  margin-top: 28px;
+  margin-left: -8px;
+  color: rgb(16, 0, 156); 
+  font-size: 16px;
+  font-family: Arial Rounded MT Bold;
+  }
+  #responsive
+  {
+    margin-left: -35px;
+  }
+/* Fin Index6 */
+
+/* comenzar Index7 */
+#index7 h1
+  {
+ margin-left: -8px;
+ color: rgb(0, 30, 163); 
+ font-size: 34px;
+ font-family: Arial Rounded MT Bold;
+  }
+#index7 h2
+  {
+  color: rgb(0, 0, 0); 
+  font-size: 13px;
+  font-family: calibri;
+  }
+#index7 h3
+  {
+  margin-left: -8px;
+  margin-top: 35px;
+  color: rgb(16, 0, 156); 
+  font-size: 15px;
+  font-family: Arial Rounded MT Bold;
+  }
+/* final Index7 */
+
+/* comenzar Index8 */
+#index8 h1
+  {
+ margin-left: -8px;
+ color: rgb(0, 30, 163); 
+ font-size: 32px;
+ font-family: Arial Rounded MT Bold;
+  }
+#index8 h2
+  {
+  color: rgb(0, 0, 0); 
+  font-size: 13px;
+  font-family: calibri;
+  }
+#index8 h3
+  {
+  margin-left: -8px;
+  margin-top: 35px;
+  color: rgb(16, 0, 156); 
+  font-size: 15px;
+  font-family: Arial Rounded MT Bold;
+  }
+ 
+/* final Index8 */
+
+/* comenzar Index9 */
+#index9 h1
+{
+margin-left: 1px;
+color: rgb(0, 30, 163); 
+font-size: 32px;
+font-family: Arial Rounded MT Bold;
+}
+#index9 p
+  {
+ margin-left:-10px ;
+ font-size: 13px;
+ font-family: Arial Rounded MT Bold;
+  }
+#index9 h3
+  {
+  margin-left: -8px;
+  margin-top: 10px;
+  color: rgb(16, 0, 156); 
+  font-size: 15px;
+  font-family: Arial Rounded MT Bold;
+  }
+ 
+/* final Index9 */
+
+/* comenzar Index10 */
+#index10 h1
+{
+margin-left: 1px;
+color: rgb(0, 30, 163); 
+font-size: 31px;
+font-family: Arial Rounded MT Bold;
+}
+#index10 h3
+  {
+  margin-left: -8px;
+  margin-top: 10px;
+  color: rgb(16, 0, 156); 
+  font-size: 15px;
+  font-family: Arial Rounded MT Bold;
+  }
+#index10 p
+{
+  font-size: 13px;
+}
+/* final Index10 */
+
+/* comenzar Index11 */
+#index11 h1
+{
+margin-left: 1px;
+color: rgb(0, 30, 163); 
+font-size: 28px;
+font-family: Arial Rounded MT Bold;
+}
+#index11 h2
+  {
+  margin-left: px;
+  margin-top: 0px;
+  color: rgb(0, 0, 0); 
+  font-size: 13px;
+  font-family: Arial Rounded MT Bold;
+  }
+#index11 h4
+  {
+  margin-left: -9px;
+  margin-top: 0px;
+  color: rgb(54, 0, 0); 
+  font-size: 13px;
+  font-family: Arial;
+  }
+#index11 h3
+  {
+  margin-left: -8px;
+  margin-top: 10px;
+  color: rgb(16, 0, 156); 
+  font-size: 13px;
+  font-family: Arial Rounded MT Bold;
+  }
+#index11 h5
+  {
+  margin-left: -9px;
+  margin-top: 20px;
+  color: rgb(51, 51, 51); 
+  font-size: 13px;
+  font-family: Arial;
+  }
+ #index11 .imag
+ {
+   margin-left: -40px;
+ }
+/* final Index11 */
+
+/* comenzar Index12 */
+#index12 h1
+{
+margin-left: 1px;
+color: rgb(0, 30, 163); 
+font-size: 34px;
+font-family: Arial Rounded MT Bold;
+}
+#index12 p
+{
+margin-top: px;
+color: rgb(0, 30, 163); 
+font-size: 18px;
+font-family:arial;
+}
+
+#index12 h2
+{
+color: rgb(0, 0, 0); 
+font-size: 13px;
+font-family:arial;
+}
+
+#index12 .arpegio
+{
+  margin-left: -40px;
+}
+/* finalizar Index12 */
+
+/* comenzar Index13 */
+#index13 h1
+{
+margin-left: 1px;
+color: rgb(0, 30, 163); 
+font-size: 34px;
+font-family: Arial Rounded MT Bold;
+}
+#index13 p
+{
+margin-right: 20px;
+margin-top: 15px;
+color: rgb(0, 0, 0); 
+font-size: 13px;
+font-family:arial;
+}
+
+#index13 h2
+{
+color: rgb(0, 0, 0); 
+font-size: 13px;
+font-family:arial;
+}
+/* finalizar Index13 */
+
+/* comenzar Index14 */
+#index14 h1
+{
+margin-left: 1px;
+color: rgb(0, 30, 163); 
+font-size: 34px;
+font-family: Arial Rounded MT Bold;
+}
+#index14 p
+{
+margin-top: 12px;
+color: rgb(0, 30, 163); 
+font-size: 18px;
+font-family:arial;
+}
+
+#index14 h2
+{
+margin-top: 5px;
+color: rgb(0, 0, 0); 
+font-size: 13px;
+font-family:arial;
+}
+
+#index14 h4
+{
+margin-left: -10px;
+margin-top: 25px;
+color: rgb(10, 0, 155); 
+font-size: 17px;
+font-family:arial black;
+}
+#index14 h5
+{
+margin-left: -10px;
+margin-top: 25px;
+color: rgb(10, 0, 155); 
+font-size: 20px;
+font-family:arial;
+}
+/* finalizar Index14 */
+
+
+
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.4rem;
+  font-family: arial black;
+  color: rgb(47, 167, 0);
+  background:#e0ffd1;
+}
+#sidebar .sidebar-header {
+  padding: 20px;
+}
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
